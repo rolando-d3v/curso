@@ -1,0 +1,44 @@
+.div_crear {
+  padding: 14px;
+  width: 50%;
+  background-color: #33c385;
+}
+
+.div_form {
+  width: 100%;
+  padding: 10px;
+
+  .div_input {
+    width: 100%;
+    
+    .label {
+      color: #111212;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    
+    .item_input {
+      padding: 0 8px;
+      height: 30px;
+      border-radius: 6px;
+      width: 100%;
+    }
+  }
+
+
+  .btn {
+    height: 34px;
+    padding: 0 10px;
+    border-radius: 4px;
+    outline: none;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 15px;
+
+  }
+
+
+}

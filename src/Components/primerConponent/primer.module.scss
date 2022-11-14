@@ -1,0 +1,48 @@
+.container {
+  background-color: #eee;
+  width: 50%;
+  height: 650px;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-y: auto;
+
+  .title {
+    text-align: center;
+  }
+}
+
+.card {
+  position: relative;
+  background-color: #0f111a;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 8px;
+  color: white;
+
+  .content_btn {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+
+    .btn {
+      height: 34px;
+      padding: 0 10px;
+      border-radius: 4px;
+      outline: none;
+      color: #000;
+      font-weight: 900;
+      text-transform: uppercase;
+      cursor: pointer;
+
+    }
+
+    .btn_delete {
+      background-color: red;
+
+    }
+    .btn_update {
+      margin-left: 5px;
+      background-color: rgb(96, 205, 125);
+    }
+  }
+}
